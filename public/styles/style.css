@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(216, 216, 216), rgb(236, 236, 236), rgb(255, 255, 255));
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+/*FIM DAS ESILIZAÇÕES GLOBAIS*/
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.imagem_logo{
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+}
+
+h1{
+    margin-right: 1rem;
+    font-family: 'STIX Two Math', serif;
+    color: rgb(240, 121, 41);
+}
+
+/*FIM DO HEADER*/
+
+.front_end{
+    display: flex;
+    justify-content: center;
+    font-family: 'STIX Two Math', serif;
+    color: rgb(240, 121, 41);
+    align-items: center;
+}
+
+.circulo{
+    font-size: 2rem;
+    padding-right: 40px;
+}
+
+/*FIM DO Programador Front-end.
+Conhecimentos em:*/
+
+.conhecimentos{
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.icones_conhecimentos{
+    font-size: 4rem;
+}
+
+.imagem_html5{
+    width: 110px;
+    height: 110px;
+}
+
+.imagem_css3{
+    width: 110px;
+    height: 110px;
+}
+
+.imagem_js{
+    width: 130px;
+    height: 130px;
+}
+
+h3{
+    width: 200px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    padding: 1rem;
+}
+
+.distancia_section{
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.traco_conhecimentos{
+    width: 250px;
+    height: 5px;
+    border:  solid 1px;
+    border-radius: 70px;
+}
+
+/*FIM DOS CONHECIMENTOS*/
+
+
+.sobre_mim{
+    display: flex;
+    justify-content: center;
+    font-family: 'STIX Two Math', serif;
+    color: rgb(17, 17, 17);
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    font-family: 'STIX Two Math', serif;
+    color: rgb(240, 121, 41);
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.alinhando_os_itens:hover{
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+
+.projetos1{
+    font-size: 5rem;
+    color: rgb(240, 121, 41);
+}
+
+.alinhando_os_itens{
+    text-align: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.mais_sobre_mim{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.icones_embaixo{
+    font-size: 5rem;
+    color: rgb(240, 121, 41);
+}
+
+.cores_icones_abaixo{
+    color: rgb(240, 121, 41);
+}
+
+.distancia_icones{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.distancia_icones2{
+    padding-top: 5rem;
+}
+
+#quem_eu_sou{
+    transition: 0.3s ease-in-out;
+    display: flex;
+}
+
+#orcamento{
+    transition: 0.3s ease-in-out;
+}
+
+#quem_eu_sou:hover{
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+
+#orcamento:hover{
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+
+/*FIM DO VER SOBRE MIM*/
+
+.projetos_1{
+    display: flex;
+    justify-content: center;
+}
+
+#projetos{
+    color: rgb(240, 121, 41);
+    font-family: 'STIX Two Math', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.logo_hotnotices{
+    width: 100px;
+    height: 110px;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.hot_notices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid black;
+}
+
+#h2{
+    padding-left: 1rem;
+    color: rgb(240, 121, 41);
+    font-family: 'STIX Two Math', serif;
+    cursor: pointer;
+}
+
+#sobre{
+    display: flex;
+    justify-content:center;
+    transition: 0.3s ease-in-out;
+}
+
+#conteudo_block{
+    display: none;
+}
+
+#centralizando_foto{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem{
+    width: 100px;
+    height: 100px;
+    margin-top: 11px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.texto_quem_sou{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre_mim2{
+    width: 350px;
+    height: 320px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.h3_quem_sou{
+    color: rgb(240, 121, 41);
+    font-family: 'STIX Two Math', serif;
+}
+
+.fechar{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: rgb(240, 121, 41);
+}
+
+.fechar_1{
+    color: rgb(240, 121, 41);
+    cursor: pointer;
+}
+
+.meus_projetos_1{
+    margin-bottom: -5rem;
+}
+
+/*FIM DOS CONTEUDOS E O RESTO, INICIO DO FOOTER*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.larg_foot{
+    width: 80%;
+    height: 250px;
+    background-color: rgb(240, 121, 41);
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    border-radius: 20px;
+}
+
+.titulo_foot{
+    display: flex;
+    justify-content: center;
+}
+
+#nome_foot{
+    font-family: 'STIX Two Math', serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;padding-top: 1rem;
+}
+
+#portifolio{
+    display: flex;
+    justify-content: center;
+}
+
+#quemsou_foot{
+    font-family: 'STIX Two Math', serif;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#direitos{
+    font-family: 'STIX Two Math', serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/*INICIO DOS ESTILOS DAS REDES*/
+@media (min-width:500px){
+
+.redes{
+    font-size: 24px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fixando{
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+}
+
+#insta{
+    color: rgb(255, 255, 255);
+    width: 100px;
+    background-color: rgb(240, 121, 41);
+    opacity: 0.9;
+    
+}
+
+#whats{
+    color: rgb(255, 255, 255);
+    width: 100px;
+    background-color: rgb(240, 121, 41);
+    opacity: 0.9;
+}
+
+#git{
+    color: rgb(255, 255, 255);
+    width: 100px;
+    background-color: rgb(240, 121, 41);
+    opacity: 0.9;
+}
+}
+
+@media (max-width:500px){
+    .redes{
+        font-size: 24px;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        border-radius: 10px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        color: white;
+    }
+
+    .fixando{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(240, 121, 41);
+        border-radius: 15px;
+        position: fixed;
+        bottom: 10px;
+        left: 27%;
+    }
+
+    
+    
+}
+
+
+/* ANIMAÇÕES ABAIXO */
+
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-100px, 0, 0);
+}
+
+[data-anime="right"]{
+    transform: translate3d(0px, 0, 0);
+}
+
+[data-anime="botton"]{
+    transform: translate3d(0, 100px, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
